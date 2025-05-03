@@ -1,49 +1,41 @@
-# 🚀 BlockVision – Blockchain Explorer
+# 🚀 **BlockVision – Ethereum Blockchain Explorer**
 
-BlockVision is a full-stack blockchain explorer that provides real-time visibility into Ethereum transactions, block data, and network health. Designed for both developers and non-technical users, BlockVision enables transparent access to on-chain data with high performance and a clean UI.
-
----
-
-## 📌 Features
-
-- 🔎 **View Live Ethereum Blocks** – Track and browse the latest blocks and their metadata.
-- 💸 **Search Transactions** – Input transaction hashes to get detailed insights instantly.
-- ⛓️ **Network Health Monitoring** – View Ethereum network stats like block time, gas prices, etc.
-- ⚡ **Fast Caching** – Redis-based caching for rapid data retrieval.
-- 🧠 **Developer-Friendly API** – REST API built in Golang using Gin for easy integration.
-- 🌐 **Modern UI** – Built with React.js for a smooth and intuitive user experience.
+**BlockVision** is a real-time full-stack blockchain explorer that visualizes Ethereum transaction details, block data, and network health. Designed for both developers and general users, it bridges the transparency gap in blockchain interactions with speed and usability.
 
 ---
 
-## 🛠️ Tech Stack
+## ✨ **Features**
 
-| Layer           | Technologies Used                      |
-|----------------|------------------------------------------|
-| **Frontend**    | React.js, Axios, CSS                    |
-| **Backend**     | Golang, Gin, go-ethereum, Redis         |
-| **Blockchain**  | Ethereum, Web3 API (Infura or Geth)     |
-| **Caching**     | Redis                                   |
-| **DevOps**      | Docker, dotenv                          |
+- 🔎 **Real-Time Block Explorer** – Track the latest blocks with metadata.
+- 💸 **Transaction Lookup** – Fetch full details of any Ethereum transaction.
+- 📊 **Network Health Dashboard** – Monitor block times, gas fees, and peer data.
+- ⚡ **Redis Caching** – Boosts performance and response times.
+- 🧑‍💻 **RESTful API** – Developer-friendly endpoints to integrate with your apps.
+- 🌐 **Modern UI** – Built using React.js with a clean and intuitive interface.
 
 ---
 
+## 🧰 **Tech Stack**
 
-## ⚙️ Installation
+| **Layer**      | **Technologies Used**                    |
+|----------------|-------------------------------------------|
+| **Frontend**   | React.js, Axios, CSS                      |
+| **Backend**    | Go (Golang), Gin Framework, Web3 API      |
+| **Blockchain** | Ethereum, Infura or Geth                  |
+| **Caching**    | Redis                                     |
+| **DevOps**     | Docker, .env (dotenv)                     |
 
-### 1. Clone the Repository
+---
 
-```bash
-git clone https://github.com/yourusername/blockvision.git
-cd blockvision
+## 🛠️ **Backend Setup (Golang)**
 
-## 🚀 Backend Setup (Golang)
+### 🔧 **Prerequisites**
 
-### ✅ Prerequisites
 - Go 1.21+
-- Redis server (local or cloud)
-- Ethereum node access (e.g., [Infura](https://infura.io/), [Alchemy](https://www.alchemy.com/), or local Geth)
+- Redis server (local/cloud)
+- Ethereum node access: [Infura](https://infura.io), [Alchemy](https://www.alchemy.com), or local Geth
 
-### ▶️ Run Backend
+### ▶️ **Run Backend**
 
 ```bash
 cd backend
