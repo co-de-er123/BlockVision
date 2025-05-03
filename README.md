@@ -64,9 +64,11 @@ npm start
 
 ## 📡 **API Endpoints**
 ### 🔗 **Block APIs**
-Method	Endpoint	Description
-GET	/api/block/latest	Fetch the most recent Ethereum block
-GET	/api/block/:blockNumber	Retrieve a specific block by number
+| **Method** | **Endpoint**              | **Description**                      |
+| ---------- | ------------------------- | ------------------------------------ |
+| GET        | `/api/block/latest`       | Fetch the most recent Ethereum block |
+| GET        | `/api/block/:blockNumber` | Retrieve a specific block by number  |
+
 
 ## 💰 **Transaction API**
 Method	Endpoint	Description
