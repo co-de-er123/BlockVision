@@ -27,11 +27,6 @@ BlockVision is a full-stack blockchain explorer that provides real-time visibili
 
 ---
 
-## 📷 Screenshots
-
-_Add screenshots or a demo GIF here to showcase the UI and functionality._
-
----
 
 ## ⚙️ Installation
 
