@@ -1,4 +1,4 @@
-# 🚀 **BlockVision – Ethereum Blockchain Explorer**
+#  **BlockVision – Ethereum Blockchain Explorer**
 
 **BlockVision** is a real-time full-stack blockchain explorer that visualizes Ethereum transaction details, block data, and network health. Designed for both developers and general users, it bridges the transparency gap in blockchain interactions with speed and usability.
 
@@ -21,9 +21,9 @@
 |----------------|-------------------------------------------|
 | **Frontend**   | React.js, Axios, CSS                      |
 | **Backend**    | Go (Golang), Gin Framework, Web3 API      |
-| **Blockchain** | Ethereum, Infura or Geth                  |
+| **Blockchain** | Ethereum, Infura & Geth                   |
 | **Caching**    | Redis                                     |
-| **DevOps**     | Docker, .env (dotenv)                     |
+| **DevOps**     | Docker,                                   |
 
 ---
 
